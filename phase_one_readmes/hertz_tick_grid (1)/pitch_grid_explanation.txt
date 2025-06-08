@@ -1,0 +1,15 @@
+
+Pitch Grid System for Octave Number Lab
+---------------------------------------
+
+This system generates pitch ticks and labels for a logarithmic frequency grid. The purpose is to balance clarity,
+perceptual relevance, and visual extrapolability, particularly across a wide log-scaled pitch space.
+
+Key principles:
+- All labeled frequencies are divisible by 5 (including decimals like 12.5, 17.5, etc.)
+- A minimum visual spacing threshold (log2 units) ensures labels and ticks are not too crowded
+- This allows users to extrapolate frequency values even between unlabeled ticks
+- The system simulates a fine metric-style dial with musical harmonic consistency
+
+Range: 13.75 Hz to 7040 Hz
+Spacing Threshold: 0.05 log2 units

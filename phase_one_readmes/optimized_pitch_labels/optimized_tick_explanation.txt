@@ -1,0 +1,14 @@
+
+Refined Hertz Tick Label System – Octave Number Lab
+---------------------------------------------------
+This system produces a tick and label grid optimized for a readable and musically aligned display.
+
+Label Criteria:
+- Whole numbers divisible by 5 are prioritized.
+- Decimals allowed only if they end in .25, .5, or .75 (e.g., 12.5, 22.25).
+- Tick marks may exist without labels to visually interpolate.
+- Above 1600 Hz, only values divisible by 10 are labeled to reduce clutter.
+- All tick positions are derived using logarithmic (log2) spacing, with a minimum distance between ticks.
+
+Range: 13.75 Hz to 7040 Hz
+Log2 Spacing Threshold: 0.05
